@@ -29,7 +29,7 @@ std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec)
 int main()
 {
     {//sizeof() and pointer
-       double da[5];
+        /*double da[5];
         int db[] = { 1,2,3,4,5 };
         int* p;
         double* q;
@@ -47,7 +47,7 @@ int main()
         cout << *p << endl;
         cout << &db[1] << endl;
         cout << p << endl;
-        cout << &p << endl;
+        cout << &p << endl;*/
     }
     
     {//char array VS string
